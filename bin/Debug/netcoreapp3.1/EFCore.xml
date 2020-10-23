@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EFCore</name>
+    </assembly>
+    <members>
+        <member name="M:EFCore.Repositories.PedidoRepository.Adicionar(System.Collections.Generic.List{EFCore.Domains.PedidoItem})">
+            <summary>
+            Adiciona um novo pedido
+            </summary>
+            <param name="pedidosItens">Lista de pedidos itens</param>
+            <returns>Objeto Pedido</returns>
+        </member>
+        <member name="M:EFCore.Repositories.ProdutoRepository.Adicionar(EFCore.Domains.Produto)">
+            <summary>
+            Adiciona um produto
+            </summary>
+            <param name="produto">Produto a ser adicionado</param>
+        </member>
+        <member name="M:EFCore.Repositories.ProdutoRepository.BuscarPorID(System.Guid)">
+            <summary>
+            Busca itens por ID
+            </summary>
+            <param name="id">ID do produto</param>
+            <returns>Resultado da busca</returns>
+        </member>
+        <member name="M:EFCore.Repositories.ProdutoRepository.BuscarPorNome(System.String)">
+            <summary>
+            Busca produto pelo nome
+            </summary>
+            <param name="nome">Nome a ser procurado</param>
+            <returns>Produto com nome pesquisado</returns>
+        </member>
+        <member name="M:EFCore.Repositories.ProdutoRepository.Editar(EFCore.Domains.Produto)">
+            <summary>
+            Edita um produto
+            </summary>
+            <param name="produto">Produto a ser editado</param>
+        </member>
+        <member name="M:EFCore.Repositories.ProdutoRepository.Listar">
+            <summary>
+            Lista os produtos
+            </summary>
+            <returns>Lista de produtos</returns>
+        </member>
+        <member name="M:EFCore.Repositories.ProdutoRepository.Remover(System.Guid)">
+            <summary>
+            Remove um produto
+            </summary>
+            <param name="id">Id utilizado para remover</param>
+        </member>
+        <member name="M:Senai.EfCore.Interfaces.IPedidoRepository.Listar">
+            <summary>
+            Lista todos os pedidos
+            </summary>
+            <returns>Retorna uma lista de pedidos</returns>
+        </member>
+        <member name="M:Senai.EfCore.Interfaces.IPedidoRepository.Adicionar(System.Collections.Generic.List{EFCore.Domains.PedidoItem})">
+            <summary>
+            Adiciona um novo pedido
+            </summary>
+            <param name="pedidosItens">Lista de pedidos itens</param>
+            <returns>Objeto Pedido</returns>
+        </member>
+    </members>
+</doc>
